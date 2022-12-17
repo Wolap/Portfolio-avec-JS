@@ -1,0 +1,211 @@
+@import url(composants/buttons.css);
+@import url(composants/containers.css);
+@import url(composants/navbar.css);
+@import url(composants/cartes.css);
+@import url(composants/footer.css);
+@import url(composants/profile.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif
+}
+
+body {
+    background-color: #181e2b;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+a, li, button {
+    color: white;
+    text-decoration: none;
+}
+
+
+.btn-general {
+    display: grid;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+}
+
+.deplier {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.apparition {
+    opacity: 100%;
+}
+
+
+/*____________________________________*/
+
+@media screen and (max-width: 360px){
+    
+    .navbar {font-size: 80%;
+        height: auto;
+        width: 100%;
+        display: block;
+        justify-content: center;}
+
+    .menu li {display: block;
+        justify-content: center;
+        margin-left: 15%;}
+
+
+    .img_logo {width: 10%;
+        margin-left: 35%;}
+
+    .btn-profile button {margin-left: 30%;}
+
+
+    .cartes-produit{display: block;
+        width: 70%;
+        padding: 5% 2%;
+        margin: auto;}
+
+    .cartes-header {width: 100%;}
+
+    .prez {display: block;}
+
+    .img-prez-gauche {width: 100%;}
+
+    .img-prez-droite {width: 100%;}
+
+    .name {font-size: 80%;
+        height: auto;}
+
+    .description {font-size: 70%;}
+        
+    .footer {padding: 5% 7%;}
+
+    .footer-profile {margin-top: 80%;}
+    
+}
+
+
+
+@media screen and (max-width: 415px) and (min-width:360px){
+    
+    .navbar {font-size: 80%;
+        height: auto;
+        width: 100%;
+        justify-content: center;}
+
+    .menu li {display: block;}
+
+    .logo {width: 10%;}
+
+
+    .cartes-produit{display: block;
+        width: 70%;
+        padding: 5% 2%;
+        margin: auto;}
+
+    .cartes-header {width: 100%;}
+
+    .prez {display: block;}
+
+    .img-prez-gauche {width: 100%;}
+
+    .img-prez-droite {width: 100%;}
+
+    .name {font-size: 80%;
+        height: auto;}
+
+    .description {font-size: 70%;}
+        
+    .footer {padding: 5% 7%;}
+
+    .footer-profile {margin-top: 80%;}
+    
+}
+
+@media screen and (max-width: 540px) and (min-width: 415px){
+
+    .navbar {font-size: 100%;
+        height: auto;
+        width: 100%;
+        display: flex;}
+
+    .menu li {display: block;}
+
+    .img_logo {width: 150%;}
+
+    .cartes-produit{display: block;
+        width: 70%;
+        padding: 5% 0%;
+        margin: auto;}
+    
+    .cartes-prez {height: auto;}
+
+    .prez {display: block;}
+
+    .img-prez-gauche {width: 100%;}
+
+    .img-prez-droite {width: 100%;}
+
+    .prez {height: auto;}
+    
+    .footer {padding: 5% 7%;}
+}
+
+@media screen and (max-width: 912px) and (min-width: 540px){
+
+    .navbar {height: auto;
+        width: 100%;}
+
+    .menu li {padding: 2%;}
+
+    .logo {width: 5%;}
+
+    .cartes-produit{grid-template-columns: 1fr 1fr;
+        width: 90%;
+        padding-top: 5%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 10%;
+        margin: auto;}
+    
+    .cartes-header {width: 100%;}
+
+    .gif img {width: 150%;}
+
+    .txt-profile {font-size: 300%;}
+        
+    .footer {padding: 5% 7%;}
+
+    .footer-profile {margin-top: 40%;}
+}
+
+@media screen and (max-width: 1340px) and (min-width: 912px){
+
+    .cartes-produit{grid-template-columns: 1fr 1fr;
+        width: 90%;
+        padding-top: 5%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 10%;
+        margin: auto;}
+    
+    .cartes-header {width: 100%;}
+        
+    .footer {padding: 2% 5%;}
+}

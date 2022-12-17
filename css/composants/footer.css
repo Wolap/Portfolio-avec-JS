@@ -1,0 +1,32 @@
+
+
+
+.footer h3 {
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 100 ;
+}
+
+.footer-profile h3 {
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 100 ;
+}
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.contact a:hover {
+    text-shadow: -1px -1px 15px rgb(255, 255, 255);
+    color: rgb(27, 169, 204);
+}
+
+
+
+
+

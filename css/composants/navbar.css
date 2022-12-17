@@ -1,0 +1,46 @@
+
+
+.logo {
+    width: 3%;
+    height: auto;
+}
+
+.img_logo {
+    width: 100%;
+    height: auto;
+}
+
+
+.menu li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-shadow: -1px -1px 15px rgba(255,255,255,0.5);
+    font-size: large;
+    transition: transform 4s linear;
+}
+
+.menu li:hover a {
+    color: rgb(27, 169, 204);
+    text-shadow: -1px -1px 15px rgba(27,169,204,1);
+    display: inline-block;
+    transform: translateY(80%);
+}
+
+.btn-profile {
+    display: flex;
+    margin-left: auto;
+    padding-right: 10px; 
+}
+
+.btn-moon {
+    background-color: #181e2b;
+    border: none;
+    padding-left: 10px;
+}
+
+.moon {
+    
+    font-size: 200%;
+    color: rgba(27,169,204,1);
+
+}

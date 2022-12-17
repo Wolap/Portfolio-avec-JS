@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title> Portfolio </title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo"><img class="img_logo" src="assets/images/killing_duck2.png"> </a>
+        <ul class="menu"> 
+            <li> <a href="coding.html" class="btn-alert">Coding</a> </li>
+            <li> <a href="3d.html" class="btn-alert">3D</a> </li>
+            <li> <a href="#" class="btn-alert">Jeux Vidéos</a> </li>
+            <li> <a href="#" class="btn-alert">Création Design</a> </li>
+            <li> <a href="#" class="btn-alert">Marketing</a> </li>
+        </ul>
+        <a href="profile.html" class="btn-profile" > <Button> Profile </Button> </a>
+        <button id="btn-moon" class="btn-moon"> <ion-icon name="moon-outline" id="moon" class="moon"> </ion-icon> </button>
+    </nav>
+    
+    <section class="banner">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/iim.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Etudiante à l'IIM</h5>
+                  <p>Vise l'axe Coding & Digital Innovation</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/lumiere_3d_screen.PNG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lumière</h5>
+                  <p>Découverte de la 3D</p>
+                </div>
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <div class="deplier">
+      <button class="btn-deplier" id="btn-deplier"> Déplier </button>
+    </div>
+
+    <section class="cartes-produit"> 
+        <div class="cartes">
+            <div class="cartes-header" id="cartes-header"> 
+                <img class="image" src="assets/images/site_mod2_screen.PNG">
+                <h2 class="titre"> Coding Module 2</h2>
+                <p class="blabla"> Approfondissement sur le CSS et découverte du responsive. </p>
+            </div>
+            <a href="coding.html" class="btn-general" id="btn-general"> En savoir plus </a>
+        </div>
+
+        <div class="cartes">
+            <div class="cartes-header" id="cartes-header"> 
+                <img class="image" src="assets/images/table_3d_screen.PNG">
+                <h2 class="titre">3D pré Module 1</h2>
+                <p class="blabla"> Découverte du logiciel blender et réalisation d'objets simples.</p>
+            </div>
+            <a href="3d.html" class="btn-general" id="btn-general"> En savoir plus </a>
+        </div>
+
+        <div class="cartes">
+            <div class="cartes-header" id="cartes-header">
+                <img class="image" src="assets/images/piece_3d_screen.PNG">
+                <h2 class="titre"> 3D Module 1 </h2>
+                <p class="blabla"> Réalisation d'une pièce cartoon à l'aide des objets réalisés
+                    en cours.
+                </p>
+            </div>
+            <a href="3d.html" class="btn-general" id="btn-general"> En savoir plus </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3> Me contacter</h3>
+        <div class="contact">
+            <ion-icon name="logo-linkedin" size="small"></ion-icon>
+            <a href="https://www.linkedin.com/in/marianne-rippe-70b58524b/"> LinkedIn</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
