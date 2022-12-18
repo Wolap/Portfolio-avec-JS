@@ -6,6 +6,7 @@
     border-radius: 50px;
     box-shadow: inset 0px 0px 5px black;
     opacity: 0%;
+    transition: opacity 0.5s ease, transform 1s ease;
 }
 
 .cartes-header:hover {

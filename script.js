@@ -9,5 +9,4 @@ btnDeplier.addEventListener('click', function() {
         cartes[i].classList.toggle("apparition");
         btnCartes[i].classList.toggle("apparition")
     }
-
 })
