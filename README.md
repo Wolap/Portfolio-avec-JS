@@ -4,6 +4,3 @@
 
 Update du portoflio avec du JS
 
-## Technos 
-
-HTML CSS JS
